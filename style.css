@@ -1,0 +1,385 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     padding: 0px 50px 50px 50px;
+     font-family: poppins;
+ }
+
+ .header {
+     background-color: white;
+     height: 75px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     z-index: 1000000;
+ }
+
+ .header h1 {
+     font-size: 40px;
+     font-family: Unbounded;
+ }
+
+ .header ul {
+     display: flex;
+     gap: 30px;
+ }
+
+ .header ul a {
+     color: black;
+     text-decoration: none;
+     transform: all 0.3s;
+ }
+
+ .header ul a:hover {
+     color: red;
+     text-shadow: 2px 2px 10px crimson;
+     transition: all 0.5s;
+ }
+
+ .sing-btn {
+     border: 1px solid;
+     padding: 10px;
+     font-size: 20px;
+     text-decoration: none;
+     border-radius: 5px;
+     transition: all 0.4s;
+     color: black;
+ }
+
+ .gel {
+     color: white;
+     width: 150px;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .sing-btn:hover {
+     border-radius: 10px;
+     background: black;
+     color: white;
+     transition: all 0.6;
+     box-shadow: 5px 5px 10px crimson;
+     text-shadow: 5px 5px 5px crimson;
+ }
+
+ .ERROR {
+     display: flex;
+     flex-direction: column;
+
+ }
+
+ .ERROR .sing-btn {
+     display: flex;
+     flex-direction: column;
+     width: 100px;
+ }
+
+ .er {
+     font-size: 60px;
+     font-family: Unbounded;
+ }
+
+ .sayfa {
+     font-size: 50px;
+     font-family: Unbounded;
+ }
+
+ .what {
+     font-size: 70px;
+     font-family: Unbounded;
+     color: crimson;
+ }
+
+ .errr {
+     width: 45vh;
+     transition: all 0.4s;
+     border-radius: 40px;
+ }
+
+ .errr:hover {
+     width: 55vh;
+     transition: all 0.6s;
+     box-shadow: 10px 10px 20px crimson;
+     border-radius: 50px;
+ }
+
+ .başlık {
+     text-decoration: none;
+     color: crimson;
+     transition: all 0.4s;
+ }
+
+ .başlık:hover {
+     color: black;
+     transition: all 0.6s;
+     text-shadow: 5px 5px 10px crimson;
+ }
+
+ .giriş {
+     display: flex;
+     flex-direction: column;
+     gap: 30px;
+     background-color: black;
+     width: 300px;
+     height: 270px;
+     border-radius: 20px;
+     transition: all 0.4s;
+     color: white;
+ }
+
+ .giriş:hover {
+     display: flex;
+     gap: 45px;
+     width: 400px;
+     height: 325px;
+     border-radius: 50px;
+     box-shadow: 10px 10px 15px red;
+     transition: all 0.6s;
+ }
+
+ .giris-yazısı {
+     font-family: Unbounded;
+     color: rgb(255, 0, 0);
+     padding: 10px;
+     transition: all 0.4s;
+ }
+
+ .giris-yazısı:hover {
+     font-family: Unbounded;
+     color: crimson;
+     text-shadow: 10px 10px 15px rgb(255, 0, 0);
+     font-size: 30px;
+     padding: 5px;
+     transition: all 0.6s;
+ }
+
+ .kulya {
+     transition: all 0.4s;
+ }
+
+ .kulya:hover {
+     color: crimson;
+     text-shadow: 10px 10px 15px red;
+     font-size: 20px;
+     transition: all 0.6s;
+ }
+
+ .kulyaz {
+     background-color: black;
+     color: white;
+     border-radius: 20px;
+     transition: all 0.4s;
+     padding: 5px;
+ }
+
+ .kulyaz:hover {
+     text-shadow: 10px 10px 15px red;
+     box-shadow: 10px 10px 15px red;
+     border-radius: 30px;
+     padding: 0;
+     transition: all 0.6s;
+ }
+
+ .parola {
+     background-color: black;
+     color: white;
+     border-radius: 20px;
+     transition: all 0.4s;
+     padding: 5px;
+ }
+
+ .parola:hover {
+     text-shadow: 10px 10px 15px red;
+     box-shadow: 10px 10px 15px red;
+     border-radius: 30px;
+     padding: 0;
+     transition: all 0.6s;
+ }
+
+ .parola-yazı {
+     transition: all 0.4s;
+ }
+
+ .parola-yazı:hover {
+     color: crimson;
+     text-shadow: 10px 10px 15px red;
+     font-size: 20px;
+     transition: all 0.6s;
+ }
+
+ /* * Karşılama Alanı */
+ .hero {
+     margin-top: 150px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .hero-text {
+     max-width: 700px;
+ }
+
+ .hero-text h1 {
+     font-size: 50px;
+     font-weight: 700;
+ }
+
+ .hero-text .red {
+     color: crimson;
+ }
+
+ .hero-text p {
+     font-size: 16px;
+     font-weight: 500;
+     margin-top: 50px;
+ }
+
+ .hero img {
+     max-width: 500px;
+ }
+
+ /* Kutular ALANI */
+ .boxes {
+     background: rgb(78, 78, 78);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     padding: 40px;
+     border-radius: 20px;
+     gap: 10px;
+     margin-top: 100px;
+ }
+
+ .box {
+     max-width: 400px;
+     background: black;
+     color: white;
+     border-radius: 10px;
+     padding: 20px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     transition: all 0.4s;
+     cursor: pointer;
+ }
+
+ .es:hover {
+     /* yeniden konumlandırma */
+     transform: translate(10px, -10px);
+     box-shadow: 0 0 20px crimson;
+     border-radius: 20px;
+     /* geçiş efekti */
+     transition: all 0.5s;
+ }
+
+ .se:hover {
+     /* yeniden konumlandırma */
+     transform: translate(-10px, -10px);
+     box-shadow: 0 0 20px crimson;
+     border-radius: 20px;
+     /* geçiş efekti */
+     transition: all 0.5s;
+ }
+
+ .ees:hover {
+     /* yeniden konumlandırma */
+     transform: translate(10px, 10px);
+     box-shadow: 0 0 20px crimson;
+     border-radius: 20px;
+     /* geçiş efekti */
+     transition: all 0.5s;
+ }
+
+ .see:hover {
+     /* yeniden konumlandırma */
+     transform: translate(-10px, 10px);
+     box-shadow: 0 0 20px crimson;
+     border-radius: 20px;
+     /* geçiş efekti */
+     transition: all 0.5s;
+ }
+
+ .box img {
+     width: 50px;
+ }
+
+ .box p {
+     max-width: 250px;
+     text-align: center;
+ }
+
+ .abuzittin {
+     color: blue;
+     font-family: poppins;
+     font-size: 150px;
+ }
+
+ .uh {
+     font-family: Unbounded;
+ }
+
+ .baba {
+     background-color: white;
+     color: black;
+     border-radius: 50px;
+     width: 860px;
+     height: 400px;
+     padding: 30px;
+     gap: 30px;
+     transition: all 0.4s;
+ }
+
+ .baba:hover {
+     background-color: black;
+     color: white;
+     width: 900px;
+     height: 500px;
+     padding: 50px;
+     box-shadow: 10px 10px 15px crimson;
+     border-radius: 30px;
+     transition: all 0.6s;
+ }
+
+ .gg {
+     font-family: Unbounded;
+     transition: all 0.4s;
+ }
+
+ .gg:hover {
+     text-shadow: 10px 10px 15px crimson;
+     padding: 50px;
+     color: red;
+     transition: all 0.6s;
+ }
+
+ .ww {
+     width: 500px;
+     transition: all 0.4s;
+ }
+
+ .ww:hover {
+     color: red;
+     padding: 50px;
+     text-shadow: 10px 10px 15px crimson;
+     transition: all 0.6s;
+     width: 600px;
+ }
+.U{
+    height: 550px;
+    width: 550px;
+    gap: 30px;
+}
+.U:hover{
+    height: 750px;
+    width: 700px;
+    gap: 50px;
+    padding: 50px;
+}
